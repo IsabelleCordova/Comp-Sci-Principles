@@ -1,0 +1,196 @@
+h1{
+	color: #00bf8f;
+	font-family: Futura;
+	text-align: left;
+	padding-left: 8px;
+}
+
+h2{
+	font-family: AVENIR;
+	text-align: left;
+	padding-left: 8px;
+}
+
+img.resize {
+  width: 2%;
+  height:2%;
+  padding-bottom: 15px;
+}
+
+div{
+	
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+}
+
+h3{
+	font-family: AVENIR;
+	padding-left: 8px;
+}
+
+h4 {
+	font-family: AVENIR;
+	padding-left: 8px;
+}
+
+p{
+	font-family: AVENIR;
+	padding-left: 8px;
+}
+
+ul{
+	font-family: AVENIR;
+	color: gray
+	padding-left: 8px;
+}
+
+a {
+	color: white;
+	font-family: AVENIR;
+	text-decoration: none
+	padding-left: 8px;
+}
+
+ol {
+	color: gray;
+	font-family: AVENIR;
+	padding-left: 8px;
+}
+
+dl {
+	color: gray;
+	font-family: AVENIR;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 8px;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Futura;
+  font-size: 20px;
+}
+
+header nav {
+  text-align: right;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: 1em;
+  position: fixed;
+  width: 100%;
+}
+header nav a {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  padding: 2em 1em .5em;
+  -webkit-transition: all .3s ease-in;
+}
+.small {
+  padding: .5em 1em;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+
+*.active {
+  background: rgba(255,255,255,0.3);
+}
+
+
+.portion {
+  
+  background-image:  url('http://media.idownloadblog.com/wp-content/uploads/2016/05/Plus-Envy-By-Jason-Zigrino-2.png');
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  font-family: Futura;
+}
+.portion.two {
+  background-image: url('http://media.idownloadblog.com/wp-content/uploads/2016/05/Plus-Envy-By-Jason-Zigrino-2.png');
+}
+.portion h2 {
+  color: white;
+  font-weight: normal;
+  font-size: 3em;
+  padding: 2em 0;
+  padding-left: 30px;
+  margin: 0;
+  text-shadow: 0 0 10px black;
+  background: rgba(0,0,0,0.2);
+  font-family: Futura;
+}
+
+.info {
+  background: white;
+  color: #777;
+  padding: 3em 20%;
+}
+
+.button {
+  text-align: center;
+}
+.button a {
+  display: inline-block;
+  border: 2px solid #777;
+  padding: .75em 1.5em;
+  color: #777;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  letter-spacing: .15em;
+  word-spacing: .25em;
+  font-weight: bold;
+  font-family: futura;
+  transition: all 0.3s ease-in-out;
+}
+.button a:hover {
+  color: #FFFAF0;
+  background: #00bf8f;;
+}
+footer.info {
+  color: white;
+  background: #00bf8f;;
+  padding: 0 auto;
+  text-align: center;
+}
+
+#toTop img {
+  width: 50px;
+}
+#toTop img:hover {
+  cursor: pointer;
+}
+nav img {
+  z-index: 1000;
+  height: 2.5em;
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  transition: all 0.5s linear;
+}
+
+.move {
+  top: -60px;
+}
+
+nav span {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  font-weight: bold;
+  transition: all 0.5s ease-in;
+}
+
+.movetext {
+  top: -30px;
+}
+
