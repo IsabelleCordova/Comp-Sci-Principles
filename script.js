@@ -1,5 +1,5 @@
 $(document).ready(function(){
-alert("Hello World");
+alert("script.js is working!");
 });
 
 const nav = document.querySelector('#main');
@@ -16,3 +16,4 @@ function fixNav() {
 }
 
 window.addEventListener('scroll', fixNav);
+
