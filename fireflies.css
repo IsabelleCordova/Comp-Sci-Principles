@@ -3,8 +3,15 @@ p {
   margin: 0;
 }
 
+a {
+  color: #00bf8f;
+  font-family: AVENIR;
+  text-decoration: none;
+  padding-left: 8px;
+}
+
 body {
-    background-color: #222;
+    background-color: #FFFFFF;
     min-height: 14rem;
 }
 
@@ -24,7 +31,7 @@ div {
   height: 12rem;
   width: 12rem;
   border-radius: 50%;
-  border: .6rem solid cyan;
+  border: .6rem solid #00bf8f;
 }
 
 .orbit:nth-child(1) {
@@ -54,13 +61,13 @@ div {
 
 /* electrons */
 .orbit:before {
-  background-color: deepskyblue;
+  background-color: #00bf8f;
   margin: -4rem;
 }
 
 /* nucleus */
 .orbit:after {
-  background-color: magenta;
+  background-color: #00bf8f;
   height: 2rem;
 }
 

@@ -5,6 +5,13 @@ html {
     font-size: 20px;
     font-weight: 200;
   }
+
+  a {
+  color: #00bf8f;
+  font-family: AVENIR;
+  text-decoration: none;
+  font-size: 20px;
+}
   
   body {
     margin: 0;
