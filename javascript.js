@@ -45,8 +45,3 @@ $(document).scroll(function () {
     }
   
 });
-
-
-
-
-
