@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive</title>
+	<link rel="stylesheet" type="text/css" href="CSS.css">
+  	<script type="text/javascript" src="javascript.script.js"></script> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #00bf8f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #f1f1f1;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="practice.html">Vines</a></li>
+  <li><a href="pageTwo.html">About Me</a></li>
+  <li><a href="Form.html">Contact</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Random</a>
+    <div class="dropdown-content">
+      <a href="ResponsiveTest.html">Responsive Page</a>
+      <a href="pageThree.html">O Captain</a>
+      <a href="pageFour.html">Atomic Animation</a>
+      <a href="Test.html">Secret Card</a>
+    </div>
+  </li>
+</ul>
+
+</head>
+<body>
+
+	<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background: radial-gradient(circle, #e5e5e5, white);
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:#00bf8f;
+}
+
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background: radial-gradient(circle, #e5e5e5, white);
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:AVENIR;color:#aaaaaa;">
+
+<div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+  <h1>Resize This Page and See What Happens</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+  	<a href="practice.html">Vines</a>
+  	<a href="pageTwo.html">About Me</a>
+  	<a href="Form.html">Contact</a>
+  	<a href="ResponsiveTest.html">Responsive</a>
+  	<a href="pageThree.html">Code That I Stole</a>
+  	<a href="pageFour.html">Atomic Animation</a>
+  	<a href="Test.html">Secret Card</a>
+  </div>
+
+  <div class="main">
+    <h2>Did You Resize the Page?</h2>
+    <p>This is a test for responsive HTML that I copied from W3 Schools. If you resize the page and the formatting changes, that means it is working.</p>
+    <br>
+    <p>Also, look at those links on the left sidebar. They're quite nice and I'm proud of them. Click them to leave this page if you want.</p>
+  </div>
+
+  <div class="right">
+    <h2>Notes</h2>
+    <p>The formatting is a little off here but it's good enough so just don't pay <i>too</i> much attention to it</p>
+  </div>
+</div>
+
+<footer class="info">
+  <p>If you're reading this, have a good day</p>
+</footer>
+
+</body>
+</html>
+
+
+
+</body>
+</html>

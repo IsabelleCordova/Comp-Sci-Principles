@@ -1,9 +1,16 @@
-$(document).ready(function(){
-alert("script.js is working!");
-});
+//$(document).ready(function(){
+//alert("script.js is working!");
+//});
+
+//this is a comment in JS
+
+/*
+	this is also a comment in JS
+*/
 
 const nav = document.querySelector('#main');
 let topOfNav = nav.offsetTop;
+//var paddingTop = '3';
 
 function fixNav() {
   if (window.scrollY >= topOfNav) {

@@ -1,65 +1,42 @@
-@import url("https://use.typekit.net/pon8ywh.css");
 
+.container { 
+  width: 200px;
+  height: 260px;
+  position: relative;
+  perspective: 800px;
+}
 
-*{
-    cursor: none;
-}
-@import url("https://use.typekit.net/pon8ywh.css");
-* {
-  cursor: none;
-}
-body {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1496885950879-f0bb5768d2a6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b898d20fb2b464bfbdf31f598d8caa37&auto=format&fit=crop&w=2550&q=80) center center;
-  background-size: cover;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-h1 {
-  color: white;
-  font-family: futura-pt, sans-serif;
-  letter-spacing: 10px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-.cursor {
+#card {
+  width: 100%;
+  height: 100%;
   position: absolute;
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}
-.cursor:nth-child(1) {
-  background-color: #00f8f8;
-  z-index: 1;
-}
-.cursor:nth-child(2) {
-  background-color: #fff;
-}
-body {
-background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1496885950879-f0bb5768d2a6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b898d20fb2b464bfbdf31f598d8caa37&auto=format&fit=crop&w=2550&q=80) center center; background-size:cover;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  transform-style: preserve-3d;
+  transition: transform 1s;
 }
 
-h1{
-    color: white;
-     font-family: futura-pt, sans-serif;
-    letter-spacing: 10px;
-    font-weight: bold;
-    text-transform: uppercase;
+#card figure {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
 }
 
-.cursor{
-    position: absolute;
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    transform: translateX(-50%) translateY(-50%);
+#card .front {
+  background: red;
+}
+#card .back {
+  background: blue;
+  transform: rotateY( 180deg );
 }
 
-.cursor:nth-child(1){ background-color: #00f8f8; z-index: 1;}
-.cursor:nth-child(2){ background-color: #fff; }
+#card.flipped {
+  transform: rotateY( 180deg );
+}
+
+#card { transform-origin: right center; }
+
+#card.flipped {
+  transform: translateX( -100% ) rotateY( -180deg );
+}
