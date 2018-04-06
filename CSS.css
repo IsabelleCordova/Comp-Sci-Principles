@@ -1,3 +1,4 @@
+
 h1{
 	color: #00bf8f;
 	font-family: Futura;
@@ -98,7 +99,7 @@ form {
 .portion.two {
   background-image: url('http://media.idownloadblog.com/wp-content/uploads/2016/05/Plus-Envy-By-Jason-Zigrino-2.png');
 }
-.portion h2 {
+.portion  h2 {
   color: white;
   font-weight: normal;
   font-size: 3em;
@@ -112,6 +113,8 @@ form {
   background: white;
   color: #777;
   padding: 3em 20%;
+  font-family: Avenir;
+  float: none;
 }
 
 .button {
